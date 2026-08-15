@@ -23,8 +23,11 @@ elif (choice == 2):
     print(f"=" * 50)
     
 elif (choice == 3):
-    Celcius = int(input("Enter Celcius"))
-    Kelvin = int(input("Enter Kelvin"))
+    Celcius = int(input("Enter Celcius: "))
+
+    celsius_kelvin = Celcius + 273.15
+
+    print(f"{celsius_kelvin:.2f}K")
     print(f"=" * 50)
 
 else:
