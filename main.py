@@ -19,8 +19,9 @@ if(choice == 1):
     
 elif (choice == 2):
     Celcius = int(input("Enter Celcius"))
+    Farenheit = (Celcius * 9/5) + 32
     Farenheit = int(input("Enter Farenheit"))
-    print(f"=" * 50)
+    print(f"=" * 50) 
     
 elif (choice == 3):
     Celcius = int(input("Enter Celcius: "))
@@ -32,4 +33,4 @@ elif (choice == 3):
 
 else:
     print("Invalid Choice")
-    print(f"=" * 50)
+    print(f"=" * 50) 
